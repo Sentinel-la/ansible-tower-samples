@@ -1,0 +1,8 @@
+---
+# This playbook uses the ping module to test connectivity to hosts
+- name: Ping 
+  hosts: all 
+
+  tasks:
+  - name: ping
+    ping:
